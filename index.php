@@ -9,6 +9,6 @@
     <?php
         $number = cal_days_in_month(CAL_GREGORIAN, 2, 2016);
     ?>
-    <?= 'Il y a eu ' . $number . ' jours en Fevrier 2016' ?>
+    <p><?= 'Il y a eu ' . $number . ' jours en Fevrier 2016' ?></p>
 </body>
 </html>
